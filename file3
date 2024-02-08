@@ -1,0 +1,9 @@
+MODIFIED FILE:
+Modified file: to modified the file from the list. 
+after modified the file the process is: first you check the file where it if you dont know. follow the commands
+git status: it shows where is the file.
+git add filename: it moves from workspace to staging/index.
+git commit -m "lable": it is used to move the file from staging/index to local repository.
+git push: is used to move the file from local repository to git.
+then you goto the git hub account and refresh the account.
+the modified file will be shown the what was modified.
