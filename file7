@@ -1,0 +1,18 @@
+CREATE DIRECTORY:
+mkdir directoryname: is a command to create a directory.
+git status: if you are not create a file the directory wont shown. then you go to inside the directory.
+cd directoryname: is command to add directory in to the path.
+touch filename: to create  file. then,
+cd .. : is a command one step back from the path. it means you left from the directory.
+git status: shown the directory and file/ files.
+git add .: is command to add the directory from workspace to staging/index. again you check the git status.
+git commit -m " sample directory"
+git push: to upload the directory and files from the local repository to github account.
+------------------------------------------------------------------------------------
+if you want add perticular file in the directory follow the bellow commands
+you have multiple file in the directory like f1 f2 f3 f4
+you want add f2 only
+git add directoryname filename
+git status : it shows the files where are they. either workspace or staging/index.
+then git commit -m "lable"
+git push: in the git hub account shows the uploaded file only.
