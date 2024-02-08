@@ -1,0 +1,11 @@
+DELETE A FILE:
+first you choose a file from the list which one will you deleted.
+ls: is a command to show the list of files.
+rm filename: it is delete the file which one you are given.
+then if you want to know the file was deleted or not again you enter 'ls' command.
+after that  you will check the file which one is deleted and where it is 'git status'.it displays as deleted: filename.
+then common process: 
+git add filename
+git commit -m "lable"
+git push
+we will check the file deleted or not in git hub account. if not let you refresh the account.
