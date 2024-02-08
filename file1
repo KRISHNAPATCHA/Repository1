@@ -1,0 +1,5 @@
+touch: touch is a command to create a new file.
+git add: it is used to add files from workspace to staging/index.
+git commit: is a command to move files from staging/index to local repository.
+git commit -m "lable": it shows the why we commit the files and breaf information about a commit.
+git push: it is to move files from local repository to git hub.
