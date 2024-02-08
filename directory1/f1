@@ -1,0 +1,22 @@
+delete file commands:
+=====================
+ls
+rm filename
+lsgit add .
+git status
+git commit -m "lable"
+git push
+
+----------------------
+DIRECTORY
+=========
+ls
+mkdir directoryname
+ls
+git status
+cd directoryname
+touch filename
+cd ..
+git add .(if you add perticular file in the directory git add directoryname/filename)
+git commit -m "lable"
+git push
