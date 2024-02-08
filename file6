@@ -1,0 +1,8 @@
+DELETE DATA IN FILE:
+goto local repository then open the file after delete some data.
+after save the file. let come to the git bash.
+check the status. it shows as modified file: filename.
+git add
+git commit -m "lable"
+git push
+check the in the github account. 
