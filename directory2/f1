@@ -1,0 +1,18 @@
+ERROR: 403
+==========
+remote: permission to polarapu/batch-101.git denied to KRISHNAPATCHA.
+fatal: unable to access 'https://github.com/polarapu/batch-101.git/': The requested URL returned error: 403
+
+permissions required (permissions added, accepted)
+then you
+git push
+again you get rejected 
+error: failed to push saome refs to 'https://github.com/polarapu/batch-101.git'
+
+git pull --rebase : it will download the already existing data to your local repository.
+git push
+
+again you get an error 
+same thing 
+git pull --rebase
+git push
