@@ -1,0 +1,12 @@
+BRANCH:
+======
+git branch: it is a command to show the branches
+git branch branchname : it is a command to create a branch.
+ again you chech the branch is created or not
+git branch
+git checkout branchname: to enter respective branch
+   again you enter 
+git branch : it clearly shows the respective branch
+again you want change the branch
+git checkout main
+   
