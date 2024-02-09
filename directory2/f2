@@ -1,0 +1,36 @@
+WARNINGS:
+========
+you clone with some other url but they not give the permissions to allow the data into their repository
+you will get below warning.
+
+warning: adding embedded git repository: batch-101
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> batch-101
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached batch-101
+hint:
+hint: See "git help submodule" for more information.
+
+
+h@Rajesh MINGW64 /d/KP/Repository1 (main)
+$ git rm --cached batch-101
+error: the following file has staged content different from both the
+file and the HEAD:
+    batch-101
+(use -f to force removal)
+
+h@Rajesh MINGW64 /d/KP/Repository1 (main)
+$ git -f
+unknown option: -f
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--config-env=<name>=<envvar>] <command> [<args>]
