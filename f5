@@ -1,0 +1,50 @@
+FEW COMMANDS:
+to create a file we are used some commands, a few can we list out
+
+TOUCH, CAT, ECHO, VI
+====================
+
+TOUCH: touch is a command to create a file.
+------
+touch filename
+ex: touch file1 file2 file3
+
+CAT: cat is command to read and  modify the file.
+----
+cat > filename
+enter the data into the file.
+ex: cat > file4
+data.............
+.............data
+ctrl+d   ---- file will be created.
+cat filename -- to show the data in the file.
+
+cat >> file4-- to add the data in existing file.
+data........
+........data
+ctrl+d 
+
+ECHO: is a command to create a file.
+-----
+echo "enter the data" >filename
+to create file with data.
+ex: echo "hello world" >f6
+ls
+cat f3
+
+VI: vi is a command to create a file.
+==
+vi filename-- file will be create and opened.
+esc i-- to enter data in to the vi file.
+esc :w! -- to save the file.
+    :q! -- to exit the file.
+esc :wq! --- to save and exit the file.
+ex:
+vi f5
+hit the esc i
+enter the data
+esc :wq!
+ls
+	
+
+
